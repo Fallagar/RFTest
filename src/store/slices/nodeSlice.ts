@@ -2,8 +2,6 @@ import { createSlice } from "@reduxjs/toolkit";
 import { PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "../store";
 import { Node, Edge } from "reactflow";
-import { MarkerType } from "reactflow";
-
 interface INodesSlice {
   nodesArray: Node[];
   edgesArray: Edge[];

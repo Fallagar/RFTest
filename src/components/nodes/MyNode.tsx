@@ -70,7 +70,7 @@ function MyNode({ data }) {
             )}
           </div>
           <div className="node-options__options-container nodrag">
-            {new Array(6).fill(1).map((e, i) => {
+            {new Array(6).fill(1).map((_, i) => {
               return (
                 <div onClick={() => addNextNode(i + 1)} key={i}>
                   {self.data.value === i + 1 ? (
